@@ -1,0 +1,109 @@
+{
+  "Devanampiyatissa": {
+    "type": "King",
+    "sinhala_terms": ["දේවානම්පියතිස්ස", "තිස්ස රජු"],
+    "related_concepts": ["Buddhism", "Mahinda Thero", "Mihintale", "Mahavihara", "Sri Maha Bodhi"],
+    "relationships": [
+      {"relation": "supported", "target": "Buddhism"},
+      {"relation": "associated_with", "target": "Arrival of Buddhism"}
+    ]
+  },
+  "Mahinda Thero": {
+    "type": "ReligiousFigure",
+    "sinhala_terms": ["මහින්ද", "මිහිඳු", "මහින්ද හිමි", "මිහිඳු හිමි"],
+    "related_concepts": ["Buddhism", "Mihintale", "Devanampiyatissa"],
+    "relationships": [
+      {"relation": "introduced", "target": "Buddhist teaching to Sri Lanka"}
+    ]
+  },
+  "Sanghamitta": {
+    "type": "ReligiousFigure",
+    "sinhala_terms": ["සංඝමිත්තා", "සංඝමිත්තා තෙරණිය"],
+    "related_concepts": ["Sri Maha Bodhi", "Buddhism", "Bhikkhuni tradition"],
+    "relationships": [
+      {"relation": "brought", "target": "Sri Maha Bodhi sapling"}
+    ]
+  },
+  "Dutugemunu": {
+    "type": "King",
+    "sinhala_terms": ["දුටුගැමුණු", "දුටුගැමුණු රජු", "ගැමුණු"],
+    "related_concepts": ["Elara", "Ruwanwelisaya", "Political unification", "Buddhist patronage"],
+    "relationships": [
+      {"relation": "defeated", "target": "Elara"},
+      {"relation": "built", "target": "Ruwanwelisaya"},
+      {"relation": "strengthened", "target": "Anuradhapura kingship"}
+    ]
+  },
+  "Elara": {
+    "type": "Ruler",
+    "sinhala_terms": ["එළාර", "එළාර රජු"],
+    "related_concepts": ["Dutugemunu", "Anuradhapura", "Political conflict"],
+    "relationships": [
+      {"relation": "was_defeated_by", "target": "Dutugemunu"}
+    ]
+  },
+  "Irrigation": {
+    "type": "Concept",
+    "sinhala_terms": ["වාරිමාර්ග", "වැව්", "ඇළ", "ඇළ මාර්ග", "ජල කළමනාකරණය", "ජලාශ"],
+    "related_concepts": ["Agriculture", "Settlements", "Economy", "State power"],
+    "relationships": [
+      {"relation": "supported", "target": "Agriculture"},
+      {"relation": "enabled", "target": "Settlements"},
+      {"relation": "strengthened", "target": "State revenue"}
+    ]
+  },
+  "Agriculture": {
+    "type": "EconomicActivity",
+    "sinhala_terms": ["කෘෂිකර්ම", "වී වගාව", "කුඹුරු", "ආහාර නිෂ්පාදනය", "අතිරික්ත"],
+    "related_concepts": ["Irrigation", "Taxation", "Village settlements"],
+    "relationships": [
+      {"relation": "depended_on", "target": "Irrigation"},
+      {"relation": "generated", "target": "State revenue"}
+    ]
+  },
+  "Buddhism": {
+    "type": "Religion",
+    "sinhala_terms": ["බුදුදහම", "බුද්ධාගම", "බෞද්ධ", "ධර්ම", "සංඝ"],
+    "related_concepts": ["Culture", "Art", "Architecture", "Monasteries", "Education"],
+    "relationships": [
+      {"relation": "influenced", "target": "Culture"},
+      {"relation": "influenced", "target": "Architecture"},
+      {"relation": "supported", "target": "Education and literature"}
+    ]
+  },
+  "Architecture": {
+    "type": "CulturalConcept",
+    "sinhala_terms": ["ගෘහ නිර්මාණ", "චෛත්‍ය", "ස්තූප", "විහාර", "ආරාම", "පොකුණු"],
+    "related_concepts": ["Buddhism", "Royal patronage", "Art"],
+    "relationships": [
+      {"relation": "expressed", "target": "Buddhist devotion"},
+      {"relation": "symbolized", "target": "Royal power"}
+    ]
+  },
+  "Art": {
+    "type": "CulturalConcept",
+    "sinhala_terms": ["කලා", "සඳකඩ", "මුරගල්", "කොරවක්ගල්", "ප්‍රතිමා", "සංකේත"],
+    "related_concepts": ["Buddhism", "Architecture", "Symbolism"],
+    "relationships": [
+      {"relation": "represented", "target": "Religious ideas"}
+    ]
+  },
+  "Administration": {
+    "type": "PoliticalConcept",
+    "sinhala_terms": ["පාලනය", "පරිපාලන", "රජ", "නිලධාරී", "ගම් ප්‍රධානී", "බදු"],
+    "related_concepts": ["King", "Village", "Taxation", "Irrigation"],
+    "relationships": [
+      {"relation": "organized", "target": "Taxation and labour"},
+      {"relation": "managed", "target": "Irrigation works"}
+    ]
+  },
+  "Ruwanwelisaya": {
+    "type": "Monument",
+    "sinhala_terms": ["රුවන්වැලිසෑය", "රුවන්වැලි", "දාගැබ", "චෛත්‍ය"],
+    "related_concepts": ["Dutugemunu", "Buddhism", "Architecture"],
+    "relationships": [
+      {"relation": "built_by", "target": "Dutugemunu"},
+      {"relation": "symbolizes", "target": "Buddhist devotion and kingship"}
+    ]
+  }
+}
